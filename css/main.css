@@ -86,7 +86,14 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
- /* -------------------- Base Header - Footer Styles -------------------- */
+ 
+ .content-wrapper {
+   width: 90%;
+   margin: 50px 0;
+ }
+ 
+   /* -------------------- Base Header - Footer Styles -------------------- */
+ 
  header,
  footer {
      display: flex;
@@ -95,11 +102,16 @@ textarea {
      flex-flow: row wrap;
  }
 
+ header {
+   padding: 15px 0;
+ }
+
  header .content-wrapper {
    display: flex;
    justify-content: center;
    align-items: center;
    flex-flow: row wrap;
+   margin: 0;
  }
 
  header nav{
@@ -107,16 +119,38 @@ textarea {
    justify-content: space-around;
    align-items: center;
    flex-flow: row wrap;
+   width: 60%;
  }
 
  header nav ul{
   display: flex;
   justify-content: space-around;
+  width: 100%;
+ }
+
+ .header-divider{
+   width: 100%;
+   height: 1px;
+   margin: 10px 0 20px 0;
+ }
+
+ footer{
+   flex-direction: column;
+ }
+
+ footer .content-wrapper {
+   width: 55%;
+   margin: 50px 0;
+ }
+
+ footer .contact{
+   margin-bottom: 50px;
  }
 
  footer .social-icons {
    display: flex;
    justify-content: space-around;
+   align-items: center;
  }
 
  footer .social-icons p {
@@ -125,13 +159,21 @@ textarea {
    align-items: center;
  }
 
+ footer p{
+   margin: 0;
+ }
+
+ footer .copyright {
+   margin: 20px 0;
+ }
+
 
 
  /*--------------------- hero area styles ------------------*/
  .hero-area{
    display: flex;
    justify-content: center;
-   align-items: center;
+   flex-flow: row wrap;
  }
 
 /*---------------------- newsletter styles --------------------*/
@@ -142,46 +184,96 @@ aside{
   flex-flow: row wrap;
 }
 
-.form-description{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
 /*------------------------ features styles ---------------------*/
 .features{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 
-.features-items{
+.features h2{
+  margin-bottom: 60px;
+}
+
+.features p{
+  margin: 0;
+}
+
+.features .features-items{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
 }
 
 /*------------------- reviews styles ---------------------*/
 .reviews{
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-flow: row wrap;
 }
 
-.lacrue-bottling-image{
+.reviews h2{
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  margin: 20px 0;
+}
+
+/*==============================================================================
+About Page
+===============================================================================*/
+
+.mission{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-content p{
+  margin: 0;
+}
+
+/*==============================================================================
+FAQ Page
+==============================================================================*/
+
+.faq{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper{
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.faq h2{
+  margin-bottom: 40px;
+}
+
+.faq-content{
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
