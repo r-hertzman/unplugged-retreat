@@ -662,6 +662,10 @@ FAQ Page
     .mission-content p {
         width: 45%;
     }
+
+    .map figure {
+      padding-bottom: 45%;
+    }
  
     .contact-section .content-wrapper h2 {
         width: 80%;
@@ -777,6 +781,10 @@ FAQ Page
    .mission h2,
    .contact-section .content-wrapper h2 {
      width: 95%;
+   }
+
+   .map figure {
+     padding-bottom: 37%;
    }
 
    .contact-content h4{
