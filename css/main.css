@@ -108,6 +108,8 @@ body {
 ul, 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
  
 a {
@@ -119,6 +121,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
  
 h3, 
@@ -593,7 +596,7 @@ FAQ Page
 
     aside .content-wrapper .form-description,
     aside .content-wrapper .form{
-      width: 40%;
+      width: 50%;
       margin: 0;
     }
 
@@ -612,7 +615,11 @@ FAQ Page
     }
 
     .features .features-item-description {
-      width: 50%;
+      width: 62%;
+    }
+
+    .features i {
+      margin-bottom: 30px;;
     }
 
     /*Reviews*/
@@ -623,7 +630,11 @@ FAQ Page
 
     .reviews article div,
     .reviews article figure {
-      width: 48%;
+      width: 49%;
+    }
+
+    .reviews h2 {
+      width: 85%;
     }
 
     .reviews h3{
@@ -682,7 +693,7 @@ FAQ Page
     }
 
     .map figure {
-      padding-bottom: 45%;
+      padding-bottom: 45.5%;
     }
  
     .contact-section .content-wrapper h2 {
@@ -799,10 +810,11 @@ FAQ Page
    .mission h2,
    .contact-section .content-wrapper h2 {
      width: 95%;
+     font-size: 3em;
    }
 
    .map figure {
-     padding-bottom: 37%;
+     padding-bottom: 37.5%;
    }
 
    .contact-content h4{
