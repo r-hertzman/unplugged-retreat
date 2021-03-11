@@ -600,6 +600,10 @@ FAQ Page
       margin: 0;
     }
 
+    input[type=button] {
+      font-size: 1em;
+    }
+
     /*features*/
 
     .features h2{
